@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <link rel="stylesheet" href="./css/stickyNotes.css" />
+		<title>Sticky Notes Web App</title>
+	</head>
+	<body>
+        <button class="button" id="draw">Draw</button>
+        <button class="button" id="clear">Clear</buton>
+        <button class="button" id="note">New Note</button>
+        <form id = "noteText">
+            <label for="noteText">Note:</label><br>
+            <input type="text" id= "noteText_txt" value="Note">
+        </form>
+        <text id = "featuresText">Note Controls:</text>
+        <button class="button2" id="delete">Delete Note</buton>
+        <button class="button3" id="color">Change Color</button>
+        <div class="slidecontainer">
+            <input type="range" min="0" max="30" value="15" id = "brushSize">
+        </div>
+        <form id = "fileUpload" enctype="multipart/form-data" method="post">
+            Link image URL to upload:
+            <input type="text" name="fileToUpload" id="fileToUpload">
+            <input type="button" value="Upload" id="submit">
+        </form>
+        <canvas id="canvas0"></canvas>
+        <canvas id="canvas1"></canvas>
+        <canvas id="canvas2"></canvas>
+		<script src="./js/stickyNotes.js" type="module">
+        </script>
+	</body>
+</html>

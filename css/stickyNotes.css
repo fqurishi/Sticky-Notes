@@ -1,0 +1,88 @@
+.button {
+    padding: 12px 18px;
+    margin: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+    position: relative;
+    z-index: 3;
+}
+.button2 {
+    padding: 12px 18px;
+    top: 20px;
+    left: 1390px;
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+    position: absolute;
+    margin: auto 0;
+    z-index: 3;
+}
+.button3 {
+    padding: 12px 18px;
+    top: 20px;
+    left: 1220px;
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+    position: absolute;
+    margin: auto 0;
+    z-index: 3;
+}
+#featuresText {
+    position: absolute;
+    top: 20px;
+    left: 950px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+	text-transform: uppercase;
+    z-index: 3;
+}
+#noteText {
+    position: absolute;
+    top: 10px;
+    left: 375px;
+    font-size: 20px;
+    text-align: center;
+	text-transform: uppercase;
+    color: black;
+    z-index: 3;
+}
+#fileUpload {
+    position: absolute;
+    bottom: 20px;
+    left: 75px;
+    font-size: 20px;
+    text-align: center;
+	text-transform: uppercase;
+    color: black;
+    z-index: 3;
+}
+.slidecontainer {
+    z-index: 3;
+    padding: 12px 18px;
+    cursor: pointer;
+    position: absolute;
+    left: 1200px;
+    top: 18px;
+}
+#canvas0 {
+    background-color: darkgrey;
+    z-index: 0;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+#canvas1 {
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+#canvas2 {
+    z-index: 2;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}

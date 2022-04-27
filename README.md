@@ -1,4 +1,6 @@
 # Sticky-Notes
+https://faislqurishi.dev/pages/stickyNotes - interatable here
+
 Sticky Notes and Whiteboard web-app
 
 Controls are on the top of the window. Top left we have: draw, clear, new note buttons and a "Note:" textfield.
